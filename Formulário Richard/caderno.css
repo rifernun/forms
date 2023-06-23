@@ -1,0 +1,225 @@
+@media print{
+    body
+    {
+        -webkit-print-color-adjust: exact;
+        page-break-inside: avoid;
+        break-inside: avoid;
+        background-color: #212A3E;
+    }
+}
+@media print 
+{
+    #tabela 
+    {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+}
+img
+{
+    width: 15px;
+}
+button
+{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: limegreen;
+}
+body
+{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::placeholder
+{
+    color:#212A3E;
+}
+h1
+{
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: grey;
+    color: black;
+    width: 100%;
+}
+#tabela
+{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+table
+{
+    background-color: #d3d3d3;
+    margin: auto;
+}
+table, th, td 
+{
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 800px;
+}
+input
+{
+    padding: 10px;
+    background-color: #d3d3d3;
+}
+.nome
+{
+    font-size: medium;
+    border: 1px solid #9BA4B5;
+    padding: 10px;
+    width: 690px;
+}
+.curso
+{
+    font-size: medium;
+    border: 1px solid #9BA4B5;
+    padding: 10px;
+    width: 315px;
+}
+.sala
+{
+    font-size: medium;
+    border: 1px solid #9BA4B5;
+    padding: 10px;
+    width: 315px;
+}
+.materia
+{
+    font-size: medium;
+    border: 1px solid #9BA4B5;
+    text-align: left;
+    padding: 10px;
+    width: 680px;
+}
+.prof
+{
+    font-size: medium;
+    border: 1px solid #9BA4B5;
+    text-align: left;
+    padding: 10px;
+    width: 660px;
+}
+.hour1, .hour2, .hour3, .hour4, .hour5, .hour6, .hour7, .hour8
+{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#horario
+{
+    text-align: left;
+    padding: 26px;
+    border: 1px solid black;
+    margin: auto;
+}
+label
+{
+    text-align: center;
+}
+.hora
+{
+    width: 74px;
+    display: inline-block;
+}
+.data1
+{
+    display: inline-block;
+    width: 77px;
+}
+.data2
+{
+    display: inline-block;
+    width: 76px;
+}
+.data3
+{
+    display: inline-block;
+    width: 49px;
+}
+.data4
+{
+    display: inline-block;
+    width: 60px;
+}
+.data5
+{
+    display: inline-block;
+    width: 58px;
+}
+.data6
+{
+    display: inline-block;
+    width: 51px;
+}
+.data7
+{
+    display: inline-block;
+    width: 66px;
+}
+.inputs
+{
+    margin: 0;
+    text-align: center;
+}
+.inputs input
+{
+    margin: 0;
+    text-align: center;
+}
+.data, .anotacoes, .prova
+{
+    text-align: left;
+    display: inline-block;
+    width: 230px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+}
+#p1
+{
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 10px;
+}
+.prova1, .datap1, .anotap1
+{
+    width: 228px;
+    text-align: center;
+}
+@media print {
+    input::-webkit-input-placeholder 
+    { /* para navegadores webkit, como o Google Chrome */
+      color: transparent !important;
+    }
+    
+    input:-moz-placeholder 
+    { /* para navegadores Firefox */
+      color: transparent !important;
+    }
+    
+    input:-ms-input-placeholder 
+    { /* para navegadores Microsoft Edge */
+      color: transparent !important;
+    }
+  }
+  .thdh 
+  {
+    border-radius: 15px;  
+    padding: 10px;
+    margin: 10px;
+  }
+  #inputsdata input
+  {
+    border-radius: 5px;
+  }

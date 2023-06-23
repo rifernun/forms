@@ -1,0 +1,4 @@
+function savePage()
+{
+    window.print();
+}
